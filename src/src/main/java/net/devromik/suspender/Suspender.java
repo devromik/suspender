@@ -6,7 +6,7 @@ import static java.time.Duration.*;
 import net.devromik.suspender.utils.Path;
 
 /**
- * It allows suspending arbitrary objects for a certain amount of time.
+ * It allows you to suspend arbitrary objects for a certain amount of time.
  * After the time expires all the listeners subscribed to the object restoration event will be notified.
  * You can always restore the object explicitly using {@code restore(Path)} before the time expires.
  *
