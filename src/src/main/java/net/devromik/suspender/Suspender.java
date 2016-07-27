@@ -17,9 +17,9 @@ import net.devromik.suspender.utils.Path;
  * Grouping allows you to work with the suspended objects on a group level.
  * For example, it is possible to explicitly restore a whole group of suspended objects.
  *
- * Use the {@code hasObjectsSuspendedBy(Path)} method to check if there are any objects
- * suspended by a path with the '/A/B/C' prefix (for example: '/A/B/C', '/A/B/C/D/E').
- * To restore all these objects, use the method {@code restore(Path)}.
+ * You can use {@code suspender.hasObjectsSuspendedBy('/A/B/C')} to check if there are any objects
+ * suspended by paths with the '/A/B/C' prefix (for example: '/A/B/C', '/A/B/C/D/E').
+ * To restore all these objects, you can use {@code suspender.restore('/A/B/C')}.
  *
  * You can get notifications on object restoration by registering a listener:
  * {@code addRestoredObjectListener(RestoredObjectListener)}.

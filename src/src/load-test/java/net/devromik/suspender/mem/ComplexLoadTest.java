@@ -35,7 +35,8 @@ public class ComplexLoadTest {
                         }
                     }
                 }
-            });
+            }
+        );
     }
 
     private boolean isLeaf(Path suspensionPath) {
